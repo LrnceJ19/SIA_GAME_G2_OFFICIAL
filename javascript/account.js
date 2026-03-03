@@ -23,7 +23,7 @@ if (savedUsernames.length == 0 && savedPasswords.length == 0) {
   savedPasswords.push("root");
   savedEmails.push("admin@gmail.com");
   
-  savedCoins.push("0");
+  savedCoins.push("5000");
   savedTotalCorrect.push("0");
   savedLevelsMastered.push("0");
   
