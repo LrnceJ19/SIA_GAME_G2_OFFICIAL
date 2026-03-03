@@ -358,7 +358,7 @@ document.documentElement.style.pointerEvents = 'none';
     let unlocked = { easy: 1, medium: 1, hard: 1 };
     let scores;
 
-window.onload = function(){
+document.addEventListener("DOMContentLoaded", () => {
     fetchData();
     uName = getUsernameValue();
     coins = Number(getSavedCoins());
@@ -378,7 +378,7 @@ window.onload = function(){
     document.documentElement.style.pointerEvents = 'auto';
     
     setLeaderboard();
-}
+});
 
 const exitBtn = document.getElementById("dashboard-exit-btn");
 
